@@ -15,7 +15,7 @@ namespace Vote
             Console.WriteLine("Enter your name : ");
                 name = Console.ReadLine();
             Console.WriteLine("Enter your age :");
-            String age=int.Parse(Console.ReadLine());
+            int age=int.Parse(Console.ReadLine());
             if(age>=18)
             {
                 Console.WriteLine(name+", you are eligible for voting");
